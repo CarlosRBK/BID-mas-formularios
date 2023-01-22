@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.container {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
+}
+
+.form-group {
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 35px;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 2px rgb(170, 170, 170) solid;
+}
+
+label{
+    color: rgb(104, 104, 104);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    height: 20px;
+    border-radius: 3px solid black 0px;
+}
+
+.form-group-cpassword{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+
+}
+
+.result-container {
+    margin: 15px;
+}
+
+.result-container > h2 {
+    font-size: 22px;
+}
+
+.result-container > p {
+    font-size: 16px;
+}
